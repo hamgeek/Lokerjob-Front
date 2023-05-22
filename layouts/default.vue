@@ -8,5 +8,8 @@
             <DefaultTheSidebar />
         </div>
     </main>
+    <footer>
+        <DefaultTheFooter />
+    </footer>
 
 </template>

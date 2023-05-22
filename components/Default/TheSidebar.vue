@@ -55,9 +55,9 @@
 
 <script setup lang="ts">
       
-      const location_val = ref<String>("");
-      const location_suggest = ref<Boolean>(false);
-      const location_data = ref<any>(["Jakarta","Surabaya","Bandung"]);
+      const location_val = ref<string>("");
+      const location_suggest = ref<boolean>(false);
+      const location_data = ref<string[]>(regionProvince);
 
       const closeSuggest = () => {
             setTimeout(() => {
